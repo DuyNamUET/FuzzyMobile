@@ -4,8 +4,8 @@ function plotMobileRobot(pose_set, check_points)
 %% Load all parameters
 [dt, R, L] = parameters();
 %% Config  plot
-xlim_graph = [0 100];
-ylim_graph = [0 100];
+xlim_graph = [0 50];
+ylim_graph = [0 50];
 pos_graph = animatedline('Marker','o');
 point_graph = animatedline('Marker','h','Color','r','LineStyle','none');
 %% Plot
